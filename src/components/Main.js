@@ -23,7 +23,7 @@ const categories = [
             onClick={() => setActiveId(category.id)}
           >
             <div
-              className="overflow-hidden  bg-pink-200 shadow-lg cursor-pointer"
+              className="overflow-hidden  shadow-lg cursor-pointer"
               style={{ height: "300px" }}
             >
               <Image
