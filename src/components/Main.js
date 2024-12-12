@@ -18,7 +18,7 @@ const categories = [
           <div
             key={category.id}
             className={`flex flex-col items-center justify-center transition-all duration-300 ease-in-out ${
-              activeId === category.id ? "w-80" : "w-52"
+              activeId === category.id ? "w-96" : "w-52"
             }`}
             onClick={() => setActiveId(category.id)}
           >
